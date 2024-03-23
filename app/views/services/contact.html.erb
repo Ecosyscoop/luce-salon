@@ -1,1 +1,9 @@
 <h1>Contact here!</h1>
+
+<% customers = ["Ann", "Bob", "Lee", "Tom"] %>
+
+<ol>
+  <% customers.each do |customer| %>
+    <li><%= customer.capitalize %></li>
+  <% end %>
+</ol>
