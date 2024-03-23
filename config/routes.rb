@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   #GET localhost:xxx/about
   # verb "/path", to:"controller#action"
+  root to: "services#home"
   get "/index", to: "services#index"
   get "/contact", to:"services#contact"
 
